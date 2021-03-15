@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilo_log.css">
+	<title>login</title>
+</head>
+<body>
+    <br><br><br><br>
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-xl-4 col-lg-5 col-sm-6 col-10 bg-dark rounded">
+                <br><center><h1 class="text-white">Iniciar Sesión</h1></center>
+                <form action="login.php" method="POST">
+                    <div class="form-group">
+                        <label class="text-white">Usuario:</label><br>
+    		            <input class="form-control" type="text" name="user" placeholder="Usuario" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-white">Contraseña:</label><br>
+                        <input class="form-control" type="password" name="pass" placeholder="Usuario" required>
+                    </div>
+		            <center>
+		                <input type="submit" class="btn btn-secondary" value="Iniciar Sesión">
+		                <a href="registrar.html"><input type="button" class="btn btn-secondary" value="Registrar"></a>
+		            </center>
+	            </form><br>
+           </div>
+        </div>
+    </div>
+</body>
+</html>

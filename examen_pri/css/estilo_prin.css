@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image:url(../img/in.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#a{
+    font-size: 56px;
+}
+@media(min-width:768px){
+    
+}
+.sidebar{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: #333;
+    color: #fff;
+    outline: 1px solid #2a2a2a;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar li{
+    outline: 1px solid #2a2a2a;
+}
+.sidebar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.sidebar li:hover{
+    background-color: #444;
+    border-left: 5px solid #eee;
+    transition: border 0.3s;
+}
